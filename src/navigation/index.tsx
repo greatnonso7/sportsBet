@@ -15,8 +15,8 @@ const AppNav = () => {
           headerShown: false,
           ...TransitionPresets.SlideFromRightIOS,
         }}
-        initialRouteName={'Dashboard'}>
-        <Stack.Screen name="Dashboard" component={DashboardStack} />
+        initialRouteName={'AppDashboard'}>
+        <Stack.Screen name="AppDashboard" component={DashboardStack} />
       </Stack.Navigator>
     </>
   );

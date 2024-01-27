@@ -1,7 +1,7 @@
 import {NavigatorScreenParams} from '@react-navigation/native';
 
 export type RootStackParamList = {
-  Dashboard: NavigatorScreenParams<DashboardStackParamList>;
+  AppDashboard: NavigatorScreenParams<DashboardStackParamList>;
 };
 
 export type DashboardStackParamList = {

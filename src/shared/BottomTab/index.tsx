@@ -70,5 +70,3 @@ const styles = StyleSheet.create({
     elevation: hp(5),
   },
 });
-
-export default BottomTab;
